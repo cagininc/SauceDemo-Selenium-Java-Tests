@@ -1,0 +1,18 @@
+# Build klasörleri
+/target/
+/bin/
+
+# Eclipse & IDEA ayar dosyaları
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+
+# Allure report dosyaları
+/allure-results/
+/allure-report/
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
