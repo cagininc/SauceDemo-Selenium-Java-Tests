@@ -26,13 +26,19 @@ selenium-tests/
 │
 ├── pom.xml → Maven yapılandırması
 
-## 🚀 Test Senaryoları
+## Test Senaryoları Özeti
 
-- ✅ Başarılı giriş
-- ✅ Logout testi
-- ✅ Sepete ürün ekleme
-- ✅ Sepetten ürün çıkarma
-- ✅ Checkout sayfasına geçiş
+Bu projede aşağıdaki temel test senaryoları otomatikleştirilmiştir:
+
+- **Login Tests**: Başarılı ve başarısız kullanıcı giriş işlemlerinin doğrulanması.
+- **Logout Test**: Kullanıcının sistemden başarılı şekilde çıkış yapabilmesi.
+- **Inventory Tests**: Ürün listesinin doğru görüntülenmesi, ürün fiyatlarının kontrolü ve sepete ürün ekleme işlemleri.
+- **Cart Page Tests**: Sepet sayfasında eklenen ürünlerin doğrulanması ve ürün çıkarma işlemleri.
+- **Checkout Tests**: Ödeme sayfasındaki form validasyonları ve işlemlerin kontrolü.
+- **Checkout Overview Tests**: Ödeme öncesi onay ekranındaki bilgilerin doğru gösterilmesi.
+
+Tüm testler Selenium WebDriver kullanılarak Java ile yazılmış ve Maven ile yönetilmektedir. Test sonuçları **Allure Report** ile görselleştirilmiştir.
+
 
 ---
 
