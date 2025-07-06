@@ -40,7 +40,7 @@ selenium-tests/
 
 Testlerin sonuçları **Allure** ile raporlanır. Aşağıda örnek bir ekran görüntüsü:
 
-![Allure Report Screenshot](./screenshots/allure-report-example.png)
+![Allure Report Screenshot](./Allure-report1.png)
 
 Raporu çalıştırmak için:
 ```bash
