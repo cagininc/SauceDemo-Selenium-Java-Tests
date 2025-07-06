@@ -1,6 +1,5 @@
 # 🧪 SauceDemo Selenium Java Tests
-
-Bu proje, [SauceDemo](https://www.saucedemo.com/) e-ticaret web uygulamasının test otomasyonunu kapsamaktadır. Proje, Java + Selenium WebDriver kullanılarak, Page Object Model (POM) mimarisiyle yazılmıştır. Ayrıca Allure raporlama entegrasyonu da sağlanmıştır.
+Bu proje, [SauceDemo](https://www.saucedemo.com/) e-ticaret web uygulamasının test otomasyonunu kapsamaktadır.Techcareer.net Yazılım Otomasyon Bootcamp kapsamında geliştirilmiş Proje, Java + Selenium WebDriver kullanılarak, Page Object Model (POM) mimarisiyle yazılmıştır. Ayrıca Allure raporlama entegrasyonu da sağlanmıştır.
 
 ---
 
