@@ -21,14 +21,14 @@ public abstract class BaseTest {
 
     @BeforeAll
     static void globalSetup() {
-        // ChromeDriver yönetimini otomatikleştirmek için
         WebDriverManager.chromedriver().setup();
     }
 
     @BeforeEach
     void setup() {
-        // Tarayıcı tercihlerini yapılandır
+        
         ChromeOptions options = new ChromeOptions();
+        //saucedemonun password breach hatası için
         Map<String, Object> prefs = new HashMap<>();
         prefs.put("credentials_enable_service", false);
         prefs.put("profile.password_manager_enabled", false);
@@ -38,7 +38,6 @@ public abstract class BaseTest {
         driver = new ChromeDriver(options);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
-        // Test edilecek uygulamayı aç
         driver.get("https://www.saucedemo.com/");
     }
 
